@@ -1,4 +1,5 @@
-<main>
+<main [ngClass]="{'dark-theme': dark, 'light-theme': !dark}">
   <app-home>
   </app-home>
+  <app-navbar></app-navbar>
 </main>

@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-
-  // Theme for the entire site
-  styleUrls: ['./app.component.css', '../assets/styles/theme_dark.css']
+  styleUrls: ['./app.component.css', '../assets/styles/site_theme.css']
 })
-export class AppComponent {
-  title = 'app';
+export class AppComponent implements OnInit {
+  dark: boolean;  // Site-wide mode
+  ngOnInit() {
+    this.dark = false;
+  }
 }
