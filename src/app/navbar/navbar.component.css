@@ -1,5 +1,5 @@
 #navbar {
-  background: rgba(33, 23, 57, 0.12);
+  background: rgba(33, 33, 33, 0.12);
   color: #27221e;
   transition: 0.5s;
   border-radius: 25px 0 0 25px;
@@ -13,6 +13,7 @@
 
 #navbar:hover {
   right: 0;
+  background: rgba(33, 33, 33, 0.36);
 }
 
 #navbar:hover > #quickmenu-icon {
