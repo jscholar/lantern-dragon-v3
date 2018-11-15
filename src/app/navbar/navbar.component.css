@@ -1,19 +1,19 @@
 #navbar {
   background: rgba(33, 33, 33, 0.12);
   color: #27221e;
+  height: 65px;
   transition: 0.5s;
-  border-radius: 25px 0 0 25px;
+  border-radius: 25px 25px 0 0;
   padding: 10px;
   position: fixed;
-  height: 50%;
-  width: 80px;
-  top: 25%;
-  right: -70px;
+  width: 70%;
+  left: 15%;
+  bottom: -50px;
 }
 
 #navbar:hover {
-  right: 0;
   background: rgba(33, 33, 33, 0.36);
+  bottom: 0;
 }
 
 #navbar:hover > #quickmenu-icon {
@@ -23,6 +23,6 @@
 #quickmenu-icon {
   transition: 0.5s;
   position: relative;
-  top: 50%;
+  left: 50%;
 }
 
