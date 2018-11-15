@@ -1,0 +1,16 @@
+/* Dark theme for the entire website.*/
+
+main {
+  height: 100%;
+}
+
+.dark-theme {
+  background-color: #27221e;
+  color: rgba(249, 249, 249, 0.72)
+}
+
+
+.light-theme {
+  background-color: #e8f0f7;
+  color: rgba(45,45,45,0.91);
+}
