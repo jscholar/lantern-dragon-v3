@@ -9,6 +9,7 @@
   width: 70%;
   left: 15%;
   bottom: -50px;
+  text-align: center;
 }
 
 #navbar:hover {
@@ -23,6 +24,4 @@
 #quickmenu-icon {
   transition: 0.5s;
   position: relative;
-  left: 50%;
 }
-
